@@ -1,6 +1,6 @@
 .Curriculo {
   text-align: center;
-  
+  background-color: rgb(158, 87, 87);
 }
 
 .Curriculo li{
@@ -25,7 +25,3 @@
   text-align: center;
 }
 
-fieldset{
-  border: 30px solid red;
- background:orange;
-}
