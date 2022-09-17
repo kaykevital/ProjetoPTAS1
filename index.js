@@ -9,6 +9,14 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '/index.html'));
 })
 
+app.get('/formacao-academica', (req, res) => {
+  res.sendFile(path.join(__dirname, '/formacao-academica.html'));
+})
+
+app.get('/projetos', (req, res) => {
+  res.sendFile(path.join(__dirname, '/projeto.html'));
+})
+
 app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`)
 })
