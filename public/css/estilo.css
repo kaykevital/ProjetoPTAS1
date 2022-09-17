@@ -16,10 +16,9 @@
   background-color: black;
 }
 
-.formacao li{
-  list-style-type: none;
+.academica p{
   display: inline-block;
-  margin: 20px;
+ 
 }
 
 .formacao {
