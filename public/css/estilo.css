@@ -1,5 +1,10 @@
 .Curriculo {
   text-align: center;
+  
+}
+
+.Curriculo li{
+  list-style-type: none;
 }
 
 .bola {
@@ -9,4 +14,19 @@
   width: 30px;
   border: 1px solid #000000;
   background-color: black;
+}
+
+.formacao li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 20px;
+}
+
+.formacao {
+  text-align: center;
+}
+
+fieldset{
+  border: 30px solid red;
+ background:orange;
 }

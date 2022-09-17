@@ -14,7 +14,7 @@ app.get('/formacao-academica', (req, res) => {
 })
 
 app.get('/projetos', (req, res) => {
-  res.sendFile(path.join(__dirname, '/projeto.html'));
+  res.sendFile(path.join(__dirname, '/projetos.html'));
 })
 
 app.listen(port, () => {
