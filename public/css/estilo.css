@@ -1,3 +1,12 @@
-body {
-  background: greenyellow;
+.Curriculo {
+  text-align: center;
+}
+
+.bola {
+  border-radius: 50%;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #000000;
+  background-color: black;
 }
