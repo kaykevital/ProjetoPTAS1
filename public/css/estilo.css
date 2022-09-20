@@ -1,10 +1,10 @@
 .Curriculo {
   text-align: center;
-  background-color: rgb(158, 87, 87);
 }
 
 .Curriculo li{
   list-style-type: none;
+  margin-bottom: 10px;
 }
 
 .bola {
@@ -23,5 +23,14 @@
 
 .formacao {
   text-align: center;
+
 }
 
+body{
+  background-color: rgb(226, 198, 198);
+}
+
+.Curriculo a{
+  text-decoration: none;
+  color: black;
+}
